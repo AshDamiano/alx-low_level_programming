@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - alphabet in lowercase, and then in uppercase
+ * main - Entry point
  * Return : Always 0 (Success)
  */
 
