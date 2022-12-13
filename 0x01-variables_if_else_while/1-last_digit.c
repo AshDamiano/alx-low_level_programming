@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * Main - The variable n will store a different value every time you run
+ * main - The variable n will store a different value every time you run
  *
  * Description: Complete the source code in order to print the last digit
  *
@@ -36,3 +36,4 @@ int main(void)
 	return (0);
 
 }
+
