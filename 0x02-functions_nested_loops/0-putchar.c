@@ -7,7 +7,6 @@
  */
 
 int main(void)
-
 {
 	_putchar('_');
 	_putchar('p');
@@ -22,4 +21,3 @@ int main(void)
 	return (0);
 
 }
-
