@@ -6,11 +6,12 @@
  * Return: void
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 
 {
 
 	char hc;
+	
 	for (hc = 'a'; hc <= 'z'; hc++)
 	{
 		_putchar(hc);
