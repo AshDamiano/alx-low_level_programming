@@ -6,7 +6,7 @@
  * Return: The absolute value
  *
  */
-int _abs(int)
+int _abs(int g)
 {
 	if (g >= 0)
 	return (g);
