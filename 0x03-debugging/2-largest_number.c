@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * largest_number - returns the largest number
+ * largest_number - returns the largest of s booksa.
  * @a: first integer
  * @b: second integer
  * @c: third integar
@@ -20,7 +20,7 @@ largest = a;
 }
 else
 {
-largest = c;
+largest =c;
 }
 }
 else if (b > c)
@@ -32,5 +32,5 @@ else
 largest = c;
 }
 
-return (largest);
+return (Largest);
 }
