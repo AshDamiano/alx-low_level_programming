@@ -7,7 +7,7 @@
  */
 
 int _supper(int a)
-
+{
 	if (a >= 70 && a <= 80)
 	{
 	return (1);
@@ -16,3 +16,4 @@ int _supper(int a)
 	{
 	return (0);
 	}
+}
