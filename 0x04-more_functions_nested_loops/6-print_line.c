@@ -1,16 +1,26 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0
+ * print_line - draws a straight line in the terminal
+ * @b: The number of lines to draw
+ * Return: empty
  */
 
-int main(void)
+int print_line(int b)
+
 {
-	print_line(0);
-	print_line(2);
-	print_line(10);
-	print_line(-4);
-	return (0);
+	int z
+
+	if (b <= 0)
+	{
+	_putchar('\n');
+	}
+	else
+	{
+	for (z = 0; z < b; z++)
+	{
+	_putchar(95);
+	}
+	_putchar('\n');
+	}
 }
