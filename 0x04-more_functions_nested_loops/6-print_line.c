@@ -2,22 +2,22 @@
 
 /**
  * print_line - draws a straight line in the terminal
- * @b: The number of lines to draw
+ * @n: The number of lines to draw
  * Return: empty
  */
 
-int print_line(int b)
+int print_line(int n)
 
 {
-	int z
+	int x;
 
-	if (b <= 0)
+	if (n <= 0)
 	{
 	_putchar('\n');
 	}
 	else
 	{
-	for (z = 0; z < b; z++)
+	for (x = 0; x < n; x++)
 	{
 	_putchar(95);
 	}
