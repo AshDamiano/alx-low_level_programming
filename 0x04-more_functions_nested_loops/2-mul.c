@@ -1,17 +1,14 @@
 #include "main.h"
 
 /**
- * print_numbers - print num from 0 - 9
- * Return: void
+ * mul - Multiples two integers
+ * @a: The first number to multiply
+ * @b: The second number to multiply with first number
+ * Return: The answer of multiplication between a and b
  */
 
-void print_numbers(void)
-{
-	char c;
+int mul(int a, int b)
 
-	for (c = '0'; c <= '9'; c++)
-	{
-	_putchar(c);
-	}
-	_putchar('\n');
+{
+	return (a * b);
 }
