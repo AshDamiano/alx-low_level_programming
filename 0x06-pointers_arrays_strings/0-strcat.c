@@ -1,8 +1,7 @@
-#include "main.h"
-#include <stdio.h>
 
-/**
- * Find the end of the dest string
+
+
+/*Find the end of the dest string
  * Append src to the end of the dest
  */
 
@@ -19,8 +18,4 @@ char *_strcat(char *dest, char *src)
 	{
 	*dest_end = *src;
 	dest_end++;
-	src++;
-	}
-	*dest_end + '\0';
-	return dest;
-}
+	s
