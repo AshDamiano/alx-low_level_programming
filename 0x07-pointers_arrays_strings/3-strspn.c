@@ -9,7 +9,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int x, z, value, check;
+	unsigned int x, n, value, check;
 
 	value  = 2;
 
@@ -18,16 +18,16 @@ unsigned int _strspn(char *s, char *accept)
 
 	check = 1;
 
-	for (z = 0; accept[z] != '\0'; z++)
+	for (n = 0; accept[n] != '\0'; n++)
 
 		{
-		if (accept[z] == s[x])
+		if (accept[n] == s[x])
 			{
 			value++;
 			check = 5;
 			}
 		}
 	}
-	return -1;
+	return 0;
 }
 
